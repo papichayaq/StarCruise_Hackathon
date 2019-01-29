@@ -1,0 +1,37 @@
+#contact-container {
+    margin: 0;
+}
+
+.circular {
+    display: inline-block;
+    width: 17vw;
+    height: 17vw;
+    border-radius: 50%;
+    border-width: 0.4em;
+    border-color: white;
+    border-style: solid;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: all 0.5s ease-in-out;
+}
+
+.circular:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-image: none;
+    background-color: transparent;
+}
+
+figure figcaption {
+    text-align: center;
+    margin-top: 20px;
+}
+
+figcaption span {
+    display: block;
+    font-size: 1.9vw;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .8);
+    transition: opacity 0.5s ease-out;
+}
+
+li span {
+  cursor: default;
+}

@@ -1,0 +1,43 @@
+h3 {
+    word-wrap: break-word;
+}
+
+.stylish-panel {
+    text-align: center;
+    width: 100%;
+    margin-right: inherit !important;
+    margin-left: inherit !important;
+}
+
+.stylish-panel>.row>div>a>div {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+/* review name */
+.stylish-panel>.row>div>a>div>h3 {
+    font-size: 2vw;
+}
+/* review short description */
+.stylish-panel>.row>div>a>div>p {
+    font-size: 1.5vw;
+}
+
+.stylish-panel>.row>div:hover>a>div {
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background: rgba(200, 200, 200, 0.1);
+    transition: 0.5s;
+    background-image: none;
+    background-color: transparent;
+}
+
+.stylish-panel>div img {
+    border-radius: 35%;
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover;
+    overflow: hidden;
+}

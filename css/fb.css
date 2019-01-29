@@ -1,0 +1,19 @@
+
+
+
+.entry-social {color: rgb(126, 126, 126);display: block;font-family:
+ 'Open Sans',Tahoma, Verdana, Arial, sans-serif, Faruma, Faseyha;font-size: 14px;font-weight: normal;height:
+  50%;width: 100%;float:left;border: solid 0px #aaa;text-align: center;}
+
+.entry-social div {display: block;width:138px;margin:2px;display: inline-block;  
+    vertical-align: middle;}
+
+.entry-social a {text-decoration:none;display: block;padding-left: 20px;color: #FFFFFF !important;font-weight: bold;transition:background-color .3s;    }
+
+.entry-social .fb a {background: #3B5999 url('https://3.bp.blogspot.com/-yqD2363XuAo/UeDk98twSlI/AAAAAAAAArg/kXIzFBWmczM/s1600/fb14.png') no-repeat 10px center;}
+
+
+.entry-social .linkedin a {background: #136F9B url('https://4.bp.blogspot.com/-yuEMxhpIXPc/UeDltjBGR1I/AAAAAAAAAr4/kgidavlGbY8/s1600/linkedin14.png') no-repeat 10px center;}
+
+.entry-social .fb a:hover {background-color: rgb(50, 75, 129);}
+.entry-social .linkedin a:hover {background-color: rgb(15, 89, 125);}

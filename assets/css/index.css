@@ -1,0 +1,132 @@
+body {
+    overflow: hidden;
+}
+
+.row {
+  word-wrap: break-word;
+}
+.container-table {
+    height: 100%;
+}
+
+.container-table {
+    display: table;
+}
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.random_eat_button {
+    border-radius: 50%;
+    border-width: 0.2em;
+    border-color: white;
+    border-style: solid;
+    background-color: #f4511e;
+    color: #FFFFFF;
+    font-size: 5.5vmin;
+    width: 50vh;
+    height: 50vh;
+    transition: all 0.5s ease-in-out;
+    outline: none;
+    margin-top: -15vh;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.random_eat_button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.24), 0 15px 12px rgba(0,0,0,0.12);
+}
+
+#random_label {
+    transition: all 0.5s ease-in-out;
+    margin: auto;
+}
+
+#random_label:hover {
+    transform: scale(1.3);
+}
+
+#wrapper {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#bottombar-wrapper {
+    overflow: hidden;
+    background-color: #333333;
+    width: 100%;
+    max-height: 200px;
+    height: 27vh;
+    white-space: nowrap;
+}
+
+#bottombar {
+    height: 97%;
+}
+
+#bottombar .text {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    width: 33.33%;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+#bottombar .text>.row {
+    padding: 0px;
+    margin: 0px;
+}
+
+#bottombar .text>.row>#img-container {
+    padding: 10px;
+    height: 100%;
+}
+
+#bottombar .text:hover {
+    background-color: #111111;
+}
+
+#latest-review-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#img-caption {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10px;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.thumbnail {
+    padding: 3px;
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    #img-caption {
+        width: 25%;
+        position: absolute;
+        margin: 0px;
+        text-shadow: 0 2px 3px rgba(0, 0, 0, .8);
+    }
+    #img-caption>h3, #img-caption>p {
+        margin: 5%;
+    }
+    .caption>a {
+        text-shadow: none;
+    }
+    #latest-review-img {
+        -webkit-filter: brightness(86%);
+        -moz-filter: brightness(86%);
+        filter: url(#brightness);
+        filter: brightness(86%);
+    }
+}

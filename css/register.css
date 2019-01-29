@@ -1,0 +1,11 @@
+.awesome-circle {
+    border-radius: 50%;
+    border-style: solid;
+    color: #FFFFFF;
+    font-size: 5.5vmin;
+    width: 50vh;
+    height: 50vh;
+    transition: all 0.5s ease-in-out;
+    outline: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}

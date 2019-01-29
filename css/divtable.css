@@ -1,0 +1,23 @@
+
+.div-table {
+  display: table;         
+  width: auto;                
+  border: 3px solid #666666;         
+  border-spacing: 5px; /* cellspacing:poor IE support for  this */
+}
+.div-table-row {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+.div-table-col {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;         
+  width: 10em;
+}
+
+.div-table-grid {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;
+  width: 5em;  
+}

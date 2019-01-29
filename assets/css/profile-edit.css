@@ -1,0 +1,16 @@
+h1 {
+    font-size: 4vmin;
+}
+
+#wrapper {
+    font-size: 2.5vmin;
+    min-width: 600px;
+}
+
+.btn {
+  font-size: 2.0vmin;
+}
+
+.form-horizontal {
+    padding: 0% 5%;
+}

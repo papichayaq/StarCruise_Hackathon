@@ -1,0 +1,27 @@
+.btn-group>.btn {
+    margin-bottom: 5px !important;
+}
+
+.btn.active span:after {
+    content: ' \2713';
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: none !important;
+}
+
+#short {
+    display: none;
+}
+
+@media (max-width: 1500px) {
+    #short {
+        display: block;
+    }
+    #long {
+        display: none;
+    }
+    .btn-group>.btn {
+        min-width: 20%;
+    }
+}

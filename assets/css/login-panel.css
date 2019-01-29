@@ -1,0 +1,113 @@
+.navbar, .navbar-default {
+    font-size: 175%;
+    font-family: 'Roboto', sans-serif;
+    border-bottom-style: solid;
+    border-bottom-color: #ffcc00;
+    border-bottom-width: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.navbar-nav, .nav>li {
+    display: inline-block;
+}
+
+.navbar-nav {
+    margin-right: 10px;
+}
+
+.navbar-nav>li>a, .navbar-brand {
+    padding-top: 22px !important;
+    padding-bottom: 0 !important;
+    height: 75px !important;
+    max-height: 75px !important;
+}
+
+.navbar {
+    min-height: 28px !important;
+    max-height: 75px !important;
+}
+
+@media (max-width: 506px) {
+    .navbar-collapse {
+        background-color: rgba(223, 136, 46, 0.61);
+    }
+}
+
+@media (max-width: 260px) {
+    .navbar-toggle {
+        display: none;
+    }
+}
+
+.navbar-toggle {
+    padding: 16px;
+}
+
+.navbar-default {
+    background-color: #ffa600;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 150%;
+    color: #00aeff;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px #000;
+    cursor: default;
+    transition: all 0.6s;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #fff;
+}
+
+.navbar-default .navbar-text {
+    color: #00aeff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px #000;
+}
+
+@media (max-width: 1185px) {
+    #diningmenus>li>a>span, #usermenus>li>a>span {
+        display: none;
+    }
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: yellow;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: yellow;
+    background-color: rgba(237, 235, 23, 0.85);
+    border-radius: 5px;
+}
+
+#login-dp {
+    min-width: 250px;
+    padding: 14px 14px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+#login-dp .help-block {
+    font-size: 12px
+}
+
+#login-dp .bottom {
+    background-color: rgba(255, 255, 255, .8);
+    border-top: 1px solid #ddd;
+    clear: both;
+    padding: 14px;
+}
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+@media (max-width:768px) {
+    
+}

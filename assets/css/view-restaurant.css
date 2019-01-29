@@ -1,0 +1,31 @@
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#avrLabel {
+    font-size: 1.5em;
+}
+
+#foodtype, #dishtype {
+    width: 50%;
+    margin: auto;
+    min-width: 400px;
+}
+
+#foodtype>.btn, #dishtype>.btn {
+    cursor: default;
+}
+
+#carousel {
+    width: 50%;
+    min-width: 400px;
+    margin: auto;
+}
+
+#description {
+    margin: 20px;
+    font-size: large;
+}
